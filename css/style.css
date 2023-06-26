@@ -23,7 +23,7 @@ header{
    
 }
 .jumbotron{
-    height: 400px;
+    height: 550px;
     background-color: rgb(185, 207, 229);
 }
 .titolo{
@@ -47,10 +47,16 @@ header{
     position: relative;
 }
 
+.box-business{
+    display: flex;
+    flex-direction: row;
+}
+
 .collum{
     border: 2px solid grey;
     width: 200px;
     height: 700px;
+    margin: 20px;
 }
 .typeplan{
     border: 2px solid grey;
@@ -64,4 +70,16 @@ header{
 }
 #colorcheck{
     color: #0061ff;
+}
+.plansection{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.secondtitle{
+    display: inline-block;
 }
