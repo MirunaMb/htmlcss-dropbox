@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.menu-header{
+    display: flex;
+    justify-content:space-between;
+    width: 500px;
+    list-style: none;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    padding: 5px;
+   
+}
+.jumbotron{
+    height: 400px;
+    background-color: rgb(185, 207, 229);
+}
+.titolo{
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+.paragraph{
+    margin: 10px;
+    padding: 10px;
+}
+.card-image{
+   background-image: url("../img\ 2/img/");
+}
+
