@@ -18,8 +18,8 @@ header{
 }
 .btn{
     color: white;
-    background-color: blue;
-    padding: 5px;
+    background-color: #0061ff;
+    padding: 12px;
    
 }
 .jumbotron{
@@ -35,7 +35,33 @@ header{
     margin: 10px;
     padding: 10px;
 }
-.card-image{
-   background-image: url("../img\ 2/img/");
+#card-image{
+  width: 900px;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
+.collum{
+    border: 2px solid grey;
+    width: 200px;
+    height: 700px;
+}
+.typeplan{
+    border: 2px solid grey;
+}
+.nameplan{
+    padding: 10px;
+    margin: 10px;
+}
+.greytext{
+    color: grey;
+}
+#colorcheck{
+    color: #0061ff;
+}
