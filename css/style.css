@@ -149,3 +149,22 @@ max-width: 100%;
     background-color: white;
     padding: 0 17px;
  }
+ .col-16{
+    max-width: 279px;
+ }
+ .collumnflex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .spacing{
+    margin: 20px;
+ }
+
+ .foursectionmain{
+    display: flex;
+    margin: 0 340px;
+    height:calc((100% - 30px) / 6);
+    flex-wrap: wrap;
+    flex-direction: column;
+ }
