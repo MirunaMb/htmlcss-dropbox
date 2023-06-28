@@ -162,16 +162,32 @@ max-width: 100%;
     width: 600px;
     margin-left: 325px;
  }
- .col_img{
-    background-color: #a2d39b;
-    border-radius: 100px solid #d1e9cd; ;
- }
- .col-50{
-    aspect-ratio: 1/1;
-    
- }
  .container-xl{
     padding: 100px 0;
  }
+ .box-brand{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+ }
+.green{
+    background-color: #a2d39b; 
+}
+.darkred{
+    background-color: #61072B
+}
+.azzblue{
+    background-color: #0061ff;
+}
+.red{
+    background-color: red;
+}
+.col-50{
+    width: 50%;
+}
+
+
+
+
 
 
