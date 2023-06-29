@@ -165,8 +165,12 @@ max-width: 100%;
  .container-xl{
     padding: 100px 0;
  }
- .box-brand{
+ .row-brand{
     width: 33%;
+    display: flex;
+    flex-direction: column;
+ }
+ .box-brand{
     display: flex;
     flex-direction: column;
  }
@@ -183,8 +187,28 @@ max-width: 100%;
     background-color: red;
 }
 .col-50{
-    width: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
+.row-xl{
+    display: flex;
+}
+.lightblue{
+background-color:#B5D0E7 ;
+}
+
+.blue{
+    background-color: #0D2481;
+}
+
+.yellow{
+    background-color:#FFD831 ;
+}
+
 
 
 
